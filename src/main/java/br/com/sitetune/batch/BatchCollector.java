@@ -13,10 +13,6 @@ import java.util.stream.Collector;
 
 import static java.util.Objects.requireNonNull;
 
-/**
- *
- * @author marcos
- */
 public class BatchCollector<T> implements Collector<T, List<T>, List<T>> {
 
     private final int batchSize;
